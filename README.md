@@ -16,7 +16,7 @@
 
 本地运行：Python 3.12+，安装 `requirements-contract-tests.txt`，在资料包根目录运行 `python -m pytest -q tests/test_evidence_court.py`。测试替代模型和网页，验证合约逻辑，不冒充真实网络结果。旧 GenVM 下载地址的恢复方法见 `docs/evidence-court-guide.md`。
 
-完整双语接口、扩展方式、发布共享地址和信任边界都在指南中。[Intelligent Contracts 提交指南](docs/intelligent-contracts-submission.md)提供合约定位与证据链接。五关案卷的网页地址指向游戏站点；自行托管时必须改为你控制的稳定地址，核对字节哈希，再注册新案件版本。`SHA256SUMS.txt` 用于核对资料包内容。
+完整双语接口、扩展方式、发布共享地址和信任边界都在指南中。五关案卷的网页地址指向游戏站点；自行托管时必须改为你控制的稳定地址，核对字节哈希，再注册新案件版本。`SHA256SUMS.txt` 用于核对资料包内容。
 
 ## English
 
@@ -28,4 +28,4 @@ For the smallest demonstration, pass the standalone case file's complete content
 
 For local tests, use Python 3.12+, install `requirements-contract-tests.txt`, and run `python -m pytest -q tests/test_evidence_court.py` from the kit root. Models and web responses are mocked. See the guide for the old GenVM archive recovery procedure.
 
-`docs/evidence-court-guide.md` contains the full bilingual API, extension/deployment procedure and trust limits. The [Intelligent Contracts submission guide](docs/intelligent-contracts-submission.md) contains a contract-focused summary and evidence links. Campaign web evidence points to the game site; self-hosted copies must use stable URLs you control with matching byte hashes and a newly registered version. `SHA256SUMS.txt` records package-file hashes.
+`docs/evidence-court-guide.md` contains the full bilingual API, extension/deployment procedure and trust limits. Campaign web evidence points to the game site; self-hosted copies must use stable URLs you control with matching byte hashes and a newly registered version. `SHA256SUMS.txt` records package-file hashes.
